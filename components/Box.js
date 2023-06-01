@@ -3,17 +3,11 @@
 import React from "react"
 import Item from "./Item"
 
-export default function Box() {
+export default function Box({items}) {
+    console.log(items);
     return (
         <div className="p-3"> 
-        <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-
+            
         </div>
     )
 }
